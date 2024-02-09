@@ -21,5 +21,4 @@ resource "aws_instance" "my_instance" {
 resource "aws_security_group" "my_sg" {
   vpc_id = var.vpc_id  # Use the VPC ID from vpc-module
 
-  // Add security group rules as needed
 }
